@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
+import { auth } from "../firebase/config";
+
 export default class Home extends Component {
+    componentDidMount() {}
     render() {
         return (
             <div className="container-fluid">

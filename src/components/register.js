@@ -19,7 +19,7 @@ export default class Register extends Component {
         const { email, password } = this.state;
         auth.createUserWithEmailAndPassword(email, password)
             .then(response => {
-                console.log("Register: ", response);
+                navigate("/");
             })
             .catch(error => {
                 console.log("Error registering new user: ", error);
