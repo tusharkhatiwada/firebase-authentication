@@ -84,7 +84,7 @@ export default class Login extends Component {
                                     )}
                                 </div>
                                 <div className="card-footer">
-                                    <button type="submit" className="btn btn-primary">
+                                    <button type="submit" className="btn btn-primary mx-2">
                                         Login
                                     </button>
                                     <button
